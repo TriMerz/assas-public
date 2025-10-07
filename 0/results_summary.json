@@ -1,0 +1,10 @@
+{
+  "MSE": 0.02423313818871975,
+  "MAE": 0.14461000263690948,
+  "R2": 0.8412612080574036,
+  "Correlation": 0.9997980605263449,
+  "Architecture": "Performance",
+  "Window_Size": 10,
+  "Embedding_Dim": 512,
+  "Features": 2248
+}

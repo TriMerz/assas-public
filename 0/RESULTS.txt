@@ -1,0 +1,131 @@
+Early stopping at epoch 143
+Loaded checkpoints successfully
+
+Training history plot saved to E:\MARCELLO\ASSAS\ASSAS-WP2\NNmodel\MLP\MLP_5_best_v2\MLP_0\Embeddings\training_history.png
+
+Training completed successfully!
+
+10. Creating embeddings...
+Final embedding shape: (36179, 512)
+
+11. Evaluating reconstruction quality...
+
+Input windows shape: (36179, 10, 2248)
+Embeddings shape: (36179, 512)
+Reconstructed shape: (36179, 10, 2248)
+
+Reconstruction Statistics:
+Original range: [-5.772, 6.174]
+Reconstructed range: [-3.263, 1.312]
+
+Reconstruction Metrics:
+
+Feature 647:
+  MSE: 0.027674
+  MAE: 0.164618
+  Correlation: 0.999988
+  R2: 0.850136
+
+Feature 1374:
+  MSE: 0.021169
+  MAE: 0.145141
+  Correlation: 0.973378
+  R2: -34.515257
+
+Feature 611:
+  MSE: 0.020593
+  MAE: 0.130833
+  Correlation: 0.999991
+  R2: 0.854253
+
+Feature 2037:
+  MSE: 0.026541
+  MAE: 0.159777
+  Correlation: 0.999978
+  R2: 0.859972
+
+Feature 1794:
+  MSE: 0.034077
+  MAE: 0.184471
+  Correlation: 0.962529
+  R2: -119.617989
+
+12. Visualizing embeddings...
+t-SNE Plot saved at: E:\MARCELLO\ASSAS\ASSAS-WP2\NNmodel\MLP\MLP_5_best_v2\MLP_0\Embeddings\tsne_embeddings.png
+PS E:\MARCELLO\ASSAS\ASSAS-WP2\NNmodel\MLP\MLP_5_best_v2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reconstruction Metrics:
+
+Feature 2246:
+  MSE: 0.029945
+  RMSE: 0.173047
+  MAE: 0.172374
+  MedAE: 0.172245
+  MaxError: 0.194238
+  MAPE: 71986.813406
+  SMAPE: 80.648558
+  Correlation: 0.999981
+  R2: 0.859165
+
+Feature 943:
+  MSE: 0.036117
+  RMSE: 0.190046
+  MAE: 0.190046
+  MedAE: 0.190046
+  MaxError: 0.190166
+  MAPE: 1900459668.710825
+  SMAPE: 199.999989
+  Correlation: nan
+  R2: 0.000000
+
+Feature 2109:
+  MSE: 0.024772
+  RMSE: 0.157391
+  MAE: 0.153890
+  MedAE: 0.162772
+  MaxError: 0.191821
+  MAPE: 285371.102212
+  SMAPE: 78.115643
+  Correlation: 0.999984
+  R2: 0.860526
+
+Feature 1019:
+  MSE: 0.030837
+  RMSE: 0.175604
+  MAE: 0.174194
+  MedAE: 0.181907
+  MaxError: 0.304769
+  MAPE: 53508.755118
+  SMAPE: 63.987632
+  Correlation: 0.999934
+  R2: 0.855034
+
+Feature 1831:
+  MSE: 0.017928
+  RMSE: 0.133897
+  MAE: 0.120572
+  MedAE: 0.109601
+  MaxError: 0.193460
+  MAPE: 63027.446624
+  SMAPE: 73.489795
+  Correlation: 0.999979
+  R2: 0.857092
+
+Plotting scatter of predicted vs measured values...
+Scatter plot saved at: E:\MARCELLO\ASSAS\ASSAS-WP2\NNmodel\MLP\MLP_5_best_v2\MLP_0\Embeddings\predicted_vs_measured_scatter.png
